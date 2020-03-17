@@ -5,5 +5,5 @@
   
 #### 2. Caluculator using Stack and Recursion:
 - Test Driver implements a calculator in two ways:
-  - i. using two stack ADT
+  - i. using two Stack ADT
   - ii. using recursion
