@@ -1,0 +1,92 @@
+1) 4 > 5 == 10 < 3: 
+   stack calc:     TRUE
+   recursive calc: true
+
+2) (-4)^2 == (8*3)-8: 
+   stack calc:     TRUE
+   recursive calc: true
+
+3) (-4)^2 != 3 == (8*3)-8<24: 
+   stack calc:     TRUE
+   recursive calc: true
+
+4) -(3*2)+4: 
+   stack calc:     -2.0
+   recursive calc: -2.0
+
+5) ((2*4)^2)+3!: 
+   stack calc:     70.0
+   recursive calc: 70.0
+
+6) -----(3!)^2: 
+   stack calc:     36.0
+   recursive calc: 36.0
+
+7) (1+1+1)^(10)----4: 
+   stack calc:     59053.0
+   recursive calc: 59053.0
+
+8) (1+1+1)^(4)---3! >= 75: 
+   stack calc:     TRUE
+   recursive calc: true
+
+9) 1.5-2^-1: 
+   stack calc:     1.0
+   recursive calc: 1.0
+
+10) 6.125 - 2^(-3) <= 34: 
+   stack calc:     TRUE
+   recursive calc: true
+
+11) 4!!=-24: 
+   stack calc:     TRUE
+   recursive calc: true
+
+12) 4!==-24: 
+   stack calc:     FALSE
+   recursive calc: false
+
+13) -(4!)*-(100^(-(5!))): 
+   stack calc:     2.4000000000000004E-239
+   recursive calc: 2.4000000000000004E-239
+
+14) 4!^- 4 != 0: 
+   stack calc:     TRUE
+   recursive calc: true
+
+15) (1+1+1)^(10)!----4: 
+   stack calc:     Infinity
+   recursive calc: Infinity
+
+16) 3<2 != (((4!))) >= 24: 
+   stack calc:     TRUE
+   recursive calc: true
+
+17) 1000 + (10^2) - (2.56987)^8.432784: 
+   stack calc:     -3788.7788420556117
+   recursive calc: -3788.7788420556117
+
+18) 0.125+2^-3+.055555555555555555: 
+   stack calc:     0.3055555555555556
+   recursive calc: 0.3055555555555556
+
+19) 3000000.012345679012345678-3^-4+1^158.089371: 
+   stack calc:     3000001.0
+   recursive calc: 3000001.0
+
+20) 1.7845+1.7845 == 1.7845*2: 
+   stack calc:     TRUE
+   recursive calc: true
+
+21) 100/-50+4!/-2: 
+   stack calc:     -14.0
+   recursive calc: -14.0
+
+22) -256/(-2)^8)): 
+   stack calc:     -1.0
+   recursive calc: -1.0
+
+23) ((.125*2)*8-.5)/.5: 
+   stack calc:     3.0
+   recursive calc: 3.0
+
