@@ -4,6 +4,6 @@
 - Implements a basic operator calculator using a binary tree
   
 #### 2. Caluculator using Stack and Recursion:
-- Test Driver implements a calculator in two ways:
+- Implements a calculator in two ways:
   - i. using two Stack ADT
   - ii. using recursion
